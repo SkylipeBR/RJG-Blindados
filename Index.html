@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/Visual.css">
+    <title>RJG Blindados - Blindagem automotiva</title>
+</head>
+<body>
+
+    <!-------------------- Menu ------------------------->
+    <header>
+        <nav>
+            <ul class="nav-list">
+                <a href="/" ><img src="Img/rjg-blindados-logo.svg" class="logo"></a>
+                <li><a href="/" class="btn-menu">Institucional</a></li>
+                <li><a href="/" class="btn-menu">Serviço</a></li>
+                <li><a href="/" class="btn-menu">Projetos</a></li>
+                <li><a href="/" class="btn-menu">Contato</a></li>
+            </ul>
+
+            <div class="contato-nav">
+                <span>(11) 94045-9329</span>
+                <a href="/" class="btn-menu-contato">Fale Conosco</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- seção principal, carro com blindagem -->
+
+    <section class="container-1">
+        <div class="container-texto">
+            <h1>Blindagem <br>
+                 Automotiva</h1>
+            <p>Sua tranquilidade é nossa preocupação.</p>
+        </div>
+
+        <div class="container-carro">
+            <div class="quadrado-background"></div>
+            <img src="Img/carro 1.png" alt="" class="carro-container">
+        </div>
+    </section>
+
+
+    <!-- Segunda seção sobre a RJG -->
+    <section class="container-2">
+      <div class="container-2-carro">
+      </div>
+
+      <div class="container-texto-2">
+          <ul>
+              <li>
+                RJG BLINDADOS
+              </li>
+          </ul>
+          <p>À quase uma década empenhando esforços para melhorar e aprimorar as técnicas de blindagem, materiais empregados e a tecnologia envolvidos em cada uma de nossas blindagens, buscando exceder as expectativas de nossos clientes.
+        </p>
+      </div>
+    </section>
+
+    <!-- Serviçoes que RJG-Blindagem oferece -->
+    <section class="container-serveces">
+        <div class="serveces">      <!-- cards dos serviços-->
+            <div class="div-BA">
+                <img src="img/BA.svg" alt="">
+                <p>Blindagem<br> Automotiva</p>
+            </div>
+            <div class="div-ITB">
+                <img src="img/ITB.svg" alt="">
+                <p>Inspeção Técnica<br>
+                     de Blindagem</p>
+            </div>
+            <div class="div-SVB">
+                <img src="img/SVB.svg" alt="">
+                <p>Substituição de<br> Vidros Blindados</p>
+            </div>
+            <div class="div-MESB">
+                <img src="img/MESB.svg" alt="">
+                <p>Mecânica especializada em<br> suspensão para Blindados</p>
+            </div>
+        </div>
+        <div class="carro-serveces">
+            <img src="img/servico-image.png" alt="" class="servico-carro">
+        </div>
+    </section>
+
+    <!-- Seção para entrar em contato ou orçamento -->
+
+    <section class="contact">
+        <h1>
+        FAÇA AGORA<br>
+        SEU ORÇAMENTO!
+        </h1>
+
+        <form action="#">
+            <fieldset>
+                <label for="nome">Nome *</label>
+                <input type="text" class="name-input" id="nome" placeholder="Digite seu nome*">
+            </fieldset>
+ 
+            <fieldset>
+                <label for="telefone">Telefone *</label>
+                <input type="tel" class="telefone-input" id="telefone" placeholder="Telefone*">
+            </fieldset>
+
+            <fieldset>
+                <label for="email">E-mail *</label>
+                <input type="email" class="email-input" id="email" placeholder="Digite seu Email*">
+            </fieldset>
+
+            <fieldset>
+                <label for="servico">Serviço *</label>
+                <input list="servicos-input" name="servicos" id="servicos" placeholder="Serviço*">
+
+                <datalist id="servicos-input">
+                    <option value="Blindagem Automotiva">
+                    <option value="Manutenção">
+                    <option value="Redução de Ruidos">
+                    <option value="Triagem da Blindagem">
+                    <option value="Substituição De Vidros">
+                  </datalist>
+            </fieldset>
+            
+            <fieldset>
+                <input type="checkbox" class="termos-input" id="termos-input">
+                <label for="termos-input" class="termos-label">Quero receber novidades</label>
+            </fieldset>
+            
+            <a href="/" class="btn-form">Enviar</a>
+        </form>
+    </section>
+</body>
+</html>
